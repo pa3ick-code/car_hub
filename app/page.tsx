@@ -89,7 +89,7 @@ export default function Home() {
           </section>
         ):(
           <div className="home__error-container">
-            <h2 className="text-black text-xl font-bold"></h2>
+            <h2 className="text-black text-xl font-bold">Oops! no result.</h2>
           </div>
         )
       }
